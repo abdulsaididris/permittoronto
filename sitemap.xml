@@ -4,18 +4,139 @@
     <loc>https://permittoronto.ca/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-25</lastmod>
   </url>
   <url>
     <loc>https://permittoronto.ca/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-25</lastmod>
   </url>
   <url>
     <loc>https://permittoronto.ca/blog-red-tape.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <!-- GTA Municipality Pages -->
+  <url>
+    <loc>https://permittoronto.ca/permit-north-york.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-scarborough.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-etobicoke.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-east-york.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-mississauga.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-brampton.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-caledon.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-markham.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-vaughan.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-richmond-hill.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-newmarket.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-aurora.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-pickering.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-ajax.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-whitby.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-oshawa.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-oakville.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-burlington.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-milton.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
+  </url>
+  <url>
+    <loc>https://permittoronto.ca/permit-halton-hills.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-25</lastmod>
   </url>
 </urlset>

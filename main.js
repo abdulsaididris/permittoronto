@@ -80,4 +80,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // ─── Region tabs (Areas We Serve) ─────────────────────────────────────────
+    var regionTabs = document.querySelectorAll('.region-tab');
+    if (regionTabs.length) {
+        regionTabs.forEach(function (tab) {
+            tab.addEventListener('click', function () {
+                regionTabs.forEach(function (t) { t.classList.remove('active'); });
+                this.classList.add('active');
+                var region = this.getAttribute('data-region');
+                document.querySelectorAll('.city-card').forEach(function (card) {
+                    if (region === 'all' || card.getAttribute('data-region') === region) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    }
+
 });
