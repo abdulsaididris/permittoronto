@@ -108,6 +108,38 @@
                 "@type": "Answer",
                 "text": "Yes. We assist with both development permits and building permits in Toronto. Development permits deal with land use regulations under Zoning By-law 569-2013, while building permits address structural safety under the Ontario Building Code. Many projects require both, and we manage the entire process."
               }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I get an occupancy permit in Toronto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An occupancy permit is issued by the City of Toronto's Building Division once all required inspections are passed. For new builds and major renovations, this includes framing, insulation, fire, plumbing, and final inspections. We coordinate all required inspections and liaise with City inspectors to minimize delays."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I build a garden suite or laneway house in Toronto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Under Toronto's updated zoning bylaws, garden suites and laneway suites are permitted as-of-right on most residential lots, saving 6-12 months of approval time. We prepare permit-ready drawings and manage both the zoning and building permit applications."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens if the City requests revisions to my permit application?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Revision requests (Deficiency Notices or Zoning Review comments) are common in Toronto. We respond quickly and comprehensively, revising drawings and resubmitting through the City portal. Our familiarity with Toronto's zoning examiners means we often anticipate and address objections before they become formal revision requests."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What permits are needed for a commercial change of use in Toronto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A change of use permit is required whenever a commercial space switches occupancy classification under the Ontario Building Code. This often triggers upgrades to fire separations, egress, HVAC, and accessibility. We assess your space, identify all required upgrades, and manage the full application."
+              }
             }
           ]
         }
@@ -129,6 +161,7 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#process">Our Process</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#news">News</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="contact.html" class="btn btn-outline">Free Quote</a></li>
                 </ul>
@@ -332,6 +365,35 @@
             </div>
         </section>
 
+        <!-- Live News Section -->
+        <section id="news" class="news-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>GTA Development &amp; Permit News</h2>
+                    <p>Live updates from credible news sources on building permits, development approvals, and occupancy trends in the Greater Toronto Area.</p>
+                </div>
+                <div class="news-filters" id="news-filters">
+                    <button class="news-filter-btn active" data-feed="all" id="filter-all">All News</button>
+                    <button class="news-filter-btn" data-feed="cbc" id="filter-cbc">CBC Toronto</button>
+                    <button class="news-filter-btn" data-feed="star" id="filter-star">Toronto Star</button>
+                    <button class="news-filter-btn" data-feed="globe" id="filter-globe">Globe &amp; Mail</button>
+                </div>
+                <div class="news-ticker" id="news-ticker">
+                    <span class="ticker-label">LIVE</span>
+                    <div class="ticker-content" id="ticker-text">Loading latest GTA development news...</div>
+                </div>
+                <div class="news-grid" id="news-grid">
+                    <div class="news-loading" id="news-loading">
+                        <div class="news-spinner"></div>
+                        <p>Fetching latest news from credible sources...</p>
+                    </div>
+                </div>
+                <div class="news-footer">
+                    <p class="news-disclaimer">News sourced live from CBC News, Toronto Star, and The Globe &amp; Mail. All articles link to original publishers.</p>
+                </div>
+            </div>
+        </section>
+
         <!-- FAQ Section for Featured Snippets -->
         <section id="faq" class="faq">
             <div class="container">
@@ -383,6 +445,51 @@
                         </button>
                         <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5">
                             <p>A <strong>development permit</strong> addresses <em>land use, zoning compliance, and site layout</em> — confirming the project complies with Toronto Zoning By-law 569-2013. A <strong>building permit</strong> addresses <em>construction, life safety, and structural integrity</em> under the Ontario Building Code. Many projects require both, and we handle both seamlessly.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" id="faq-q6">
+                            How do I get an occupancy permit in Toronto?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer" id="faq-a6" role="region" aria-labelledby="faq-q6">
+                            <p>An <strong>occupancy permit</strong> (also called a <em>conditional or final occupancy certificate</em>) is issued by the City of Toronto's Building Division once all required inspections are passed and the building meets the Ontario Building Code. For new builds and major renovations, you must pass <strong>framing, insulation, fire, plumbing, and final inspections</strong>. We coordinate all required inspections and liaise directly with City inspectors to minimize delays.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" id="faq-q7">
+                            Can I build a garden suite or laneway house in Toronto?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer" id="faq-a7" role="region" aria-labelledby="faq-q7">
+                            <p>Yes. Under Toronto's updated zoning bylaws, <strong>garden suites and laneway suites</strong> are now permitted as-of-right on most residential lots — saving 6–12 months of approval time. Key requirements include lot coverage limits, height restrictions, and rear yard setbacks. We prepare permit-ready drawings and manage both the zoning and building permit applications from start to finish.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" id="faq-q8">
+                            What happens if the City requests revisions to my permit application?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer" id="faq-a8" role="region" aria-labelledby="faq-q8">
+                            <p>Revision requests (<em>Deficiency Notices</em> or <em>Zoning Review comments</em>) are common in Toronto. When they arise, we <strong>respond quickly and comprehensively</strong>, revising drawings and resubmitting through the City portal. Our familiarity with Toronto's zoning examiners means we often anticipate and pre-address common objections before they become formal revision requests.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" id="faq-q9">
+                            What permits are needed for a commercial change of use in Toronto?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer" id="faq-a9" role="region" aria-labelledby="faq-q9">
+                            <p>A <strong>change of use permit</strong> is required whenever a commercial space switches occupancy classification under the Ontario Building Code — e.g., retail to restaurant, or warehouse to office. This often triggers upgrades to <strong>fire separations, egress, HVAC, and accessibility</strong>. We assess your space, identify all required upgrades, prepare compliant drawings, and manage the full application.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" id="faq-q10">
+                            Why should I hire a permit consultant instead of doing it myself?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer" id="faq-a10" role="region" aria-labelledby="faq-q10">
+                            <p>Toronto's permit process involves <strong>multiple layers of review</strong>: zoning compliance, building code compliance, life-safety requirements, and coordination with heritage, engineering, or planning departments. Incomplete submissions result in rejection and restarts — costing weeks or months. A permit consultant brings <strong>direct experience with Toronto's reviewers, proven workflows, and code expertise</strong> that dramatically reduces turnaround time and protects your project schedule.</p>
                         </div>
                     </div>
                 </div>
@@ -488,5 +595,6 @@
     </footer>
 
     <script src="main.js"></script>
+    <script src="news.js"></script>
 </body>
 </html>
